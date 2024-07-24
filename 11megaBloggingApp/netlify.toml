@@ -1,7 +1,0 @@
-[build]
-  base = "11megaBloggingApp"
-  publish = "11megaBloggingApp/build"
-  command = "npm run build"
-
-[context.production.environment]
-  NODE_VERSION = "16" # or the version you are using locally
